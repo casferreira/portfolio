@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-link{
+    color: white;
+    margin-right: vw;
+    font-family: arial;
+    font-size: large;
+    text-decoration: none;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.Rectangle {
+    width: 100vw;
+    height: 60px;
+    /* padding: 19px 49px 16px 32px; */
+    background-color: #141414;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+  
+#Rectangle2 {
+  width: 100vw;
+  height: 60vh;
+   background-color: white;
+   display: flex;
+}
+
+#Rectangle3 {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(255, 252, 101);
+    display: flex;
+    justify-content: space-around;
+}
+
+#Rectangle4 {
+    width: 100vw;
+    height: 60vh;
+     background-color: black
+     /* display: flex; */
+}
+
+#Rectangle5 {
+    width: 100vw;
+    height: 200vh;
+     background-color: white;
+     /* display: flex; */
+}
+
+#Rectangle6 {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(28, 195, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile{
+    width: 32vW;
+    height: 60vh;
+    margin-left: 5vw;
+    /* border-radius: 11vW; */
+}
+
+.education-box{
+    width:32vw;
+    height: 26vH;
+    /* background-color: white; */
+    /* border: 2px solid white; */
+    padding: 33px 27px 51px 33px;
+    border-radius: 8px;
+    /* margin-left: 6vw; */
+}
+
+#education-title{
+    color: white;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-name{
+    color:white;
+    font-family: Arial;
+    font-size: larger;
+}
+
+.education{
+    color:white;
+    font-family: arial;
+    font-size: medium;
+    margin: 2vh 0vw;
+}
+
+.education-description{
+    color:white;
+    text-align: justify;
+    font-family: arial;
+}
+
+
+#education-container{
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    height: 10vh;
+    margin-top: 10vh;
+}
+
+#about-text{
+    width:50vw;
+    font-family: arial;
+    font-size: medium;
+    text-align: justify;
+}
+
+.project{
+    width: 28vw;
+    height: 50vh;
+    display: flex;
+    margin-right: 6vw;
+    margin-bottom: 10vh;
+}
+
+.project-text{
+    width: 28vw;
+    font-family: arial;
+    font-size: medium;
+    text-align: justify;
+}
+
+
+.project-name{
+    font-family: arial;
+    margin-top: 10vh;
+}
+
+#project-name2{
+    font-family: arial;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center;
+}
+
+.project-title{
+    color: black;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+}
+
+.project-container2{
+    display: flex;
+}
+
+.project-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+#me{
+    width: 22vW;
+    height: 44vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 8vh;
+}
+
+#name{
+    font-family: arial;
+    font-size: 4vw;
+}
+
+#name2{
+    font-family: arial;
+    font-size: 5vw;
+}
+
+#name3{
+    font-family: arial;
+    font-size: 2vw;
+}
+
+#text-container{
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items:flex-start
+}
+
+#email-container{
+    width: 12vw;
+    height: 24vh;
+    margin-bottom: 14vh;
+    margin-right: 4vw;
+}
+
+#contact{
+    margin-bottom: 2vh;
+    font-family: arial;
+    font-size: xx-large;
+    margin-left: 4vw;
+    color: white;
+}
+
+#contact-text{
+    margin-bottom: 6vh;
+    font-family: arial;
+    font-size: large;
+    margin-left: 4vw;
+    margin-bottom: 12vh;
+    width: 40vw;
+    color: white;
+}
+
+.contact-icons{
+    width: 4vw;
+    height: 8vh;
+    margin: 0.5vw 6vw;
+}
+
+#icons-container{
+    display:flex;
+    flex-direction: column;
+}
